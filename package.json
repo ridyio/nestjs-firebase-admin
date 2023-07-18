@@ -1,5 +1,5 @@
 {
-  "name": "@aginix/nestjs-firebase-admin",
+  "name": "@ridyio/nestjs-firebase-admin",
   "version": "2.2.0",
   "description": "Firebase Admin module for Nest framework",
   "authors": [
@@ -10,13 +10,17 @@
     {
       "name": "Michael Musso",
       "email": "mmusso@smth.it"
+    },
+    {
+      "name": "ridy.io",
+      "email": "support@.ridy.io"
     }
   ],
   "main": "./dist/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aginix/nestjs-firebase-admin.git"
+    "url": "https://github.com/ridyio/nestjs-firebase-admin.git"
   },
   "scripts": {
     "test": "jest --config jest.json",
@@ -32,29 +36,29 @@
     "prepare": "npm run build"
   },
   "peerDependencies": {
-    "@nestjs/common": "^8.0.0",
-    "@nestjs/core": "^8.0.0"
+    "@nestjs/common": "^10.1.0",
+    "@nestjs/core": "^10.1.0"
   },
   "dependencies": {
-    "firebase-admin": "^9.7.0"
+    "firebase-admin": "^9.12.0"
   },
   "devDependencies": {
-    "@nestjs/common": "^8.0.0",
-    "@nestjs/core": "^8.0.0",
-    "@nestjs/testing": "^8.0.0",
-    "@types/jest": "^26.0.10",
-    "@types/node": "13.13.5",
-    "dotenv": "^8.1.0",
-    "husky": "4.3.0",
-    "jest": "24.9.0",
-    "lint-staged": "10.5.3",
-    "prettier": "2.2.1",
+    "@nestjs/common": "^10.1.0",
+    "@nestjs/core": "^10.1.0",
+    "@nestjs/testing": "^10.1.0",
+    "@types/jest": "^29.5.3",
+    "@types/node": "20.4.2",
+    "dotenv": "^16.3.1",
+    "husky": "8.0.3",
+    "jest": "29.6.1",
+    "lint-staged": "13.2.3",
+    "prettier": "3.0.0",
     "reflect-metadata": "^0.1.13",
-    "rimraf": "^3.0.0",
-    "supertest": "4.0.2",
-    "ts-jest": "^26.5.6",
+    "rimraf": "^5.0.1",
+    "supertest": "6.3.3",
+    "ts-jest": "^29.1.1",
     "tslint": "^6.1.3",
-    "typescript": "^4.3.5"
+    "typescript": "^5.1.6"
   },
   "lint-staged": {
     "*.ts": [
