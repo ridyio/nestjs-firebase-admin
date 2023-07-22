@@ -1,6 +1,6 @@
 {
   "name": "@ridyio/nestjs-firebase-admin",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Firebase Admin module for Nest framework",
   "authors": [
     {
@@ -40,7 +40,7 @@
     "@nestjs/core": "^10.1.0"
   },
   "dependencies": {
-    "firebase-admin": "^9.12.0"
+    "firebase-admin": "9.7.0"
   },
   "devDependencies": {
     "@nestjs/common": "^10.1.0",
